@@ -62,7 +62,7 @@ dependencies:
   # flutter_beep: ^1.0.0
   flutter_pdfview: ^1.4.4
   fl_chart: ^1.1.1
-  font_awesome_flutter: '>= 4.7.0' # comment if published plugin is used
+  font_awesome_flutter: ^10.6.0 # published plugin fallback
   record: ^6.1.2
   flutter_markdown: ^0.7.7+1
   quick_actions: ^1.1.0
@@ -131,9 +131,9 @@ dev_dependencies:
     sdk: flutter
 
 # comment the override below if published plugin is used
-dependency_overrides:
-  font_awesome_flutter:
-    path: plugin/plugins/font_awesome_flutter
+# dependency_overrides:
+#   font_awesome_flutter:
+#     path: plugin/plugins/font_awesome_flutter
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
